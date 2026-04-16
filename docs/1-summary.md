@@ -7,3 +7,4 @@
 * [Structure](STRUCTURE.md)
 * [Sécurité](SECURITY.md)
 * [Feuille de route](ROADMAP.md)
+* [README.md](README.md)
