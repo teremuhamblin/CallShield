@@ -1,20 +1,21 @@
-📱 APPStore.md - markdown
-(Optimisé selon les guidelines Apple App Store) — sources : Apple Developer Documentation, App Store Review Guidelines, Human Interface Guidelines)
+##### APPStore.md - markdown
+- Optimisé selon les guidelines Apple App Store
+- Sources : Apple Developer Documentation, App Store Review Guidelines, Human Interface Guidelines)
 
-# CallShield — Fiche App Store
+# CallShield
+> Fiche App Store
 
 ## Nom de l’app
-CallShield
+> CallShield
 
 ## Sous-titre
-Protection contre les appels et SMS frauduleux.
+> Protection contre les appels et SMS frauduleux.
 
 ## Description
-CallShield est une application conçue pour protéger les utilisateurs contre les appels et SMS frauduleux.  
-Grâce à un filtrage intelligent, une analyse locale et une interface simple, CallShield aide à identifier, bloquer et signaler les menaces téléphoniques en temps réel.
-
-Pensée pour tous les utilisateurs, même non techniques, l’application fonctionne de manière discrète, rapide et sans configuration complexe.  
-Aucune donnée personnelle n’est collectée ou transmise : tout est traité localement sur l’appareil.
+- CallShield est une application conçue pour protéger les utilisateurs contre les appels et SMS frauduleux.  
+- Grâce à un filtrage intelligent, une analyse locale et une interface simple, CallShield aide à identifier, bloquer et signaler les menaces téléphoniques en temps réel.
+> Pensée pour tous les utilisateurs, même non techniques, l’application fonctionne de manière discrète, rapide et sans configuration complexe.  
+> Aucune donnée personnelle n’est collectée ou transmise : tout est traité localement sur l’appareil.
 
 ## Fonctionnalités principales
 - **Blocage automatique des appels suspects**  
