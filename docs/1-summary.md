@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](index.md)
+* [Introduction](INDEX.md)
 * [Vision](VISION.md)
 * [MVP](MVP.md)
 * [Architecture](ARCHITECTURE.md)
