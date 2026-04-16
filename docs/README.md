@@ -16,6 +16,7 @@ ARCHITECTURE.md → architecture technique globale
 STRUCTURE.md    → organisation interne du dépôt
 SECURITY.md     → principes et exigences de sécurité
 ROADMAP.md      → étapes d’évolution du projet
+INDEX.md ~ >> ☆
 ```
 
 ### Objectif
