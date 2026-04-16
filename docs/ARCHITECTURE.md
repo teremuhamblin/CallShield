@@ -1,4 +1,4 @@
-##### Architecture.md - markdown
+##### ARCHITECTURE.md - markdown
 >CallShield
 - CallShield protège les utilisateurs des appels et SMS frauduleux sur Android, iOS et tablettes.
 
