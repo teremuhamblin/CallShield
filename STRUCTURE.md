@@ -3,30 +3,28 @@
 
 ```text
 CallShield/
-├─ README.md
-├─ LICENSE
-├─ docs/
-│  ├─ architecture.md
-│  ├─ security.md
-│  ├─ mvp.md
-│  └─ roadmap.md
-├─ android/
-│  └─ README.md
-├─ ios/
-│  └─ README.md
-├─ backend/
-│  └─ README.md
-├─ api/
-│  └─ README.md
-├─ data/
-│  └─ README.md
-├─ ui/
-│  └─ README.md
-├─ scripts/
-│  └─ README.md
-└─ .github/
-   └─ workflows/
-      └─ ci.yml
+│
+├── README.md
+├── LICENSE
+│
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── STRUCTURE.md
+│   ├── SECURITY.md
+│   ├── MVP.md
+│   ├── ROADMAP.md
+│   └── VISION.md
+│
+├── android/
+├── ios/
+├── backend/
+├── api/
+├── data/
+├── ui/
+├── scripts/
+│
+└── .github/
+    └── workflows/
 ```
 
 > À mettre à jour si nécessaire.
