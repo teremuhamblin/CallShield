@@ -1,2 +1,3 @@
-Scripts utilitaires pour automatiser les tâches du projet.
-Build, tests, maintenance et outils internes.
+> Scripts utilitaires
+- Pour automatiser les tâches du projet.
+- Build, tests, maintenance et outils internes.
