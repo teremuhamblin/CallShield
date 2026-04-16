@@ -1,5 +1,5 @@
 ##### ROADMAP.md - markdown
->CallShield
+> CallShield
 
 ### V1
 - Android + backend minimal
@@ -9,3 +9,5 @@
 
 ### V3
 - Règles dynamiques, IA locale, profils avancés
+
+> À mettre à jour si nécessaire 
