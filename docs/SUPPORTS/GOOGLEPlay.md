@@ -1,15 +1,12 @@
-🤖 GOOGLEStore.md
-(Optimisé selon les guidelines Google Play — sources : Google Play Console Help, Google Play Policies, Material Design Guidelines)
+##### GOOGLEStore.md - markdown 
+> Optimisé selon les guidelines Google Play
+- Sources : Google Play Console Help, Google Play Policies, Material Design Guidelines)
 
-`markdown
-
-CallShield — Fiche Google Play
-
-Nom de l’application
-CallShield
+# CallShield
+> Fiche Google Play
 
 Courte description
-Bloquez les appels et SMS frauduleux grâce à une protection intelligente et respectueuse de votre vie privée.
+> Bloquez les appels et SMS frauduleux grâce à une protection intelligente et respectueuse de votre vie privée.
 
 Description complète
 CallShield protège les utilisateurs contre les appels et SMS frauduleux grâce à un système de détection intelligent et un filtrage local.  
