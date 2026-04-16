@@ -119,9 +119,9 @@ En cas de non‑respect, les droits sont immédiatement révoqués.
 
 10. Contact pour usage commercial
 
-Pour toute demande d’autorisation commerciale :  
-legal@callshield.app (adresse fictive, je peux t’en générer une autre)
+Pour toute demande d’autorisation :  
+Contacter le créateur du dépôt
 
 ---
 
-✔️ LICENCE.rst
+✔️ LICENCE.md
