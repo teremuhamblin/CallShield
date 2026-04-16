@@ -1,3 +1,3 @@
-> Données locales et ressources utilisées par :
+> Données locales et ressources :
 # CallShield.
 - Inclut modèles, stockage et fichiers statiques.
