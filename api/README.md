@@ -1,2 +1,3 @@
-Spécification API de CallShield.  
-Définit les endpoints, formats et règles de sécurité.
+> Spécification API
+# CallShield.  
+- Définit les endpoints, formats et règles de sécurité.
