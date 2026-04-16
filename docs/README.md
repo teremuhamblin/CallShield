@@ -1,8 +1,6 @@
 ##### README.md - markdown
 # CallShield
 
----
-
 📚 Documentation
 
 Ce dossier contient la documentation officielle du projet CallShield.  
