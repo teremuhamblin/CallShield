@@ -27,6 +27,6 @@ scripts/   → outils et automatisation
 docs/      → documentation complète
 ```
 
-> LicencCe
+> Licence
 - Ce projet utilise la licence CallShield‑ v1.0.
 - pécialement conçue pour protéger le code et l’identité du projet.
