@@ -20,5 +20,3 @@ ROADMAP.md      → étapes d’évolution du projet
 
 ### Objectif
 > Fournir une base claire, centralisée et évolutive pour guider le développement de CallShield.
-
----
