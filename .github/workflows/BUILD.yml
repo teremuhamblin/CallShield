@@ -1,15 +1,48 @@
-name: Build
+name: Build All Platforms
 
 on:
   pull_request:
+  push:
+    branches: ["main"]
 
 jobs:
-  build:
+  android:
+    name: Build Android
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build placeholder
+      - uses: actions/checkout@v4
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+      - name: Build Android
         run: |
-          echo "TODO: ajouter build Android/iOS/Backend"
+          cd android
+          ./gradlew assembleDebug
+
+  ios:
+    name: Build iOS
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build iOS
+        run: |
+          cd ios
+          xcodebuild -scheme CallShield -sdk iphonesimulator -configuration Debug build
+
+  backend:
+    name: Build Backend
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+      - name: Backend build placeholder
+        run: echo "Backend build OK"
