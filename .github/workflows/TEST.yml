@@ -1,0 +1,53 @@
+name: Automated Tests
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  android-tests:
+    name: Android Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+      - name: Run Android tests
+        run: |
+          cd android
+          ./gradlew test
+
+  ios-tests:
+    name: iOS Tests
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run iOS tests
+        run: |
+          cd ios
+          xcodebuild test \
+            -scheme CallShield \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 14'
+
+  backend-tests:
+    name: Backend Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+      - name: Run backend tests
+        run: |
+          cd backend
+          pytest -q
