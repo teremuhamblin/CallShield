@@ -1,4 +1,6 @@
 from fastapi import FastAPI, Request
+from routers.health import router as health_router
+app.include_router(health_router, prefix="/", tags=["Health"])
 from prometheus_client import generate_latest
 from core.metrics import REQUEST_COUNT, REQUEST_LATENCY, IN_PROGRESS
 from routers.shield import router as shield_router
