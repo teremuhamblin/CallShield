@@ -8,7 +8,8 @@ app.include_router(health_router, prefix="/", tags=["Health"])
 from prometheus_client import generate_latest
 from core.metrics import REQUEST_COUNT, REQUEST_LATENCY, IN_PROGRESS
 from routers.shield import router as shield_router
-import time
+import time from core.config import settings
+print(f"Starting CallShield in {settings.environment} mode")
 
 # ------------------------------------------------------------
 # Application FastAPI
