@@ -1,0 +1,23 @@
+- name: bug
+  color: "d73a4a"
+  description: "Comportement incorrect"
+
+- name: enhancement
+  color: "a2eeef"
+  description: "Nouvelle fonctionnalité ou amélioration"
+
+- name: documentation
+  color: "0075ca"
+  description: "Documentation à mettre à jour"
+
+- name: backend
+  color: "5319e7"
+  description: "Concerne le backend"
+
+- name: android
+  color: "34d058"
+  description: "Concerne l'application Android"
+
+- name: ios
+  color: "fbca04"
+  description: "Concerne l'application iOS"
