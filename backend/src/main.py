@@ -1,4 +1,6 @@
 from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
+from core.error_handler import global_exception_handler app.add_exception_handler(Exception, global_exception_handler)
 from core.logging_config import setup_logging
 setup_logging()
 from routers.health import router as health_router
