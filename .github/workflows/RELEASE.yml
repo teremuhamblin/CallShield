@@ -1,0 +1,38 @@
+name: Release v1.0
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Confirmer la création de la release v1.0"
+        required: true
+        type: boolean
+
+jobs:
+  release:
+    if: ${{ github.event.inputs.confirm == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create tag v1.0
+        run: |
+          git config user.name "CallShield Release Bot"
+          git config user.email "release@callshield.app"
+          git tag -a v1.0 -m "Release v1.0"
+          git push origin v1.0
+
+      - name: Generate changelog (placeholder)
+        run: |
+          echo "Changelog v1.0" > CHANGELOG-V1.0.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0
+          name: "CallShield v1.0"
+          body_path: CHANGELOG-V1.0.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
