@@ -1,0 +1,25 @@
+version: 2
+updates:
+  # Dépendances GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Backend (Python)
+  - package-ecosystem: "pip"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
+
+  # Android (Gradle)
+  - package-ecosystem: "gradle"
+    directory: "/android"
+    schedule:
+      interval: "weekly"
+
+  # iOS (Swift / CocoaPods)
+  - package-ecosystem: "swift"
+    directory: "/ios"
+    schedule:
+      interval: "weekly"
