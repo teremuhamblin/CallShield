@@ -1,32 +1,36 @@
-##### README.md - markdown
-# CallShield
-> CallShield est une application conçue pour protéger les utilisateurs des appels et SMS frauduleux.  
-- Elle combine filtrage intelligent, détection proactive et respect strict de la vie privée.
+# CallShield v1.1
 
-### Fonctionnalités principales
-- Blocage automatique des appels suspects  
-- Filtrage intelligent des SMS frauduleux  
-- Journal clair des alertes et actions  
-- Fonctionnement simple, sans configuration complexe  
-- Protection respectueuse des données personnelles  
+CallShield est une plateforme modulaire de filtrage, analyse et sécurisation des communications.
 
-### Objectif
-Offrir une solution accessible à tous, capable de réduire efficacement les arnaques téléphoniques et de restaurer la confiance dans les communications mobiles.
+## 🚀 Quickstart
 
-### Structure du projet
-> Le projet est organisé de manière modulaire :
+1. cp config/env.example .env
+2. docker compose up -d
+3. Accéder à l’API : http://localhost:8080
+4. Accéder à l’UI : http://localhost:3000
 
-```text
-backend/   → logique serveur et filtrage
-android/   → application Android
-ios/       → application iOS
-api/       → spécification et endpoints
-ui/        → interface utilisateur
-data/      → données locales et ressources
-scripts/   → outils et automatisation
-docs/      → documentation complète
-```
+## 📦 Architecture
 
-> Licence
-- Ce projet utilise la licence CallShield‑ v1.0.
-- pécialement conçue pour protéger le code et l’identité du projet.
+- services/api : API principale
+- services/backend : moteur interne
+- services/rules-engine : règles de filtrage
+- ui : interface utilisateur
+- mobile : clients Android / iOS
+- infra : docker, k8s, monitoring
+- docs : documentation complète
+
+## 🔐 Sécurité
+
+Voir `/docs/security/`.
+
+## 🛣️ Roadmap
+
+Voir `/docs/roadmap/`.
+
+## 🧪 Tests
+
+pytest-q
+
+## 📄 Licence
+
+MIT – voir LICENSE.md
