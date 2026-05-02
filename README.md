@@ -3,14 +3,14 @@
 CallShield est une plateforme modulaire de filtrage, analyse et sécurisation des communications.
 
 ## 🚀 Quickstart
-
+```md
 1. cp config/env.example .env
 2. docker compose up -d
 3. Accéder à l’API : http://localhost:8080
 4. Accéder à l’UI : http://localhost:3000
-
+```
 ## 📦 Architecture
-
+```md
 - services/api : API principale
 - services/backend : moteur interne
 - services/rules-engine : règles de filtrage
@@ -18,7 +18,7 @@ CallShield est une plateforme modulaire de filtrage, analyse et sécurisation de
 - mobile : clients Android / iOS
 - infra : docker, k8s, monitoring
 - docs : documentation complète
-
+```
 ## 🔐 Sécurité
 
 Voir `/docs/security/`.
@@ -33,4 +33,4 @@ pytest-q
 
 ## 📄 Licence
 
-MIT – voir LICENSE.md
+CallShield v1 – voir LICENSE.md
