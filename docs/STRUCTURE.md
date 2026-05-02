@@ -1,6 +1,6 @@
 ##### STRUCTURE.md - markdown 
-> Projet CallShield 
-
+> Projet CallShield
+### 🛡️ Structure de base
 ```text
 CallShield/
 │
@@ -27,7 +27,7 @@ CallShield/
     └── workflows/
 ```
 
-# Mise à jour de la structure v1.0
+### 🛡️ Structure v1.0
 ```text
 CallShield/
 │
@@ -105,6 +105,118 @@ CallShield/
     ├── build.sh
     ├── deploy.sh
     └── format.sh
+```
+
+### 🛡️ Structure v1.1
+>Modulaire, scalable.
+```text
+CallShield/
+│
+├── core/
+│   ├── engine/
+│   │   ├── filters/
+│   │   ├── rules/
+│   │   ├── parser/
+│   │   └── README.md
+│   ├── utils/
+│   ├── security/
+│   └── README.md
+│
+├── platforms/
+│   ├── android/
+│   │   ├── src/
+│   │   ├── manifest/
+│   │   └── README.md
+│   ├── ios/
+│   │   ├── src/
+│   │   └── README.md
+│   └── web/
+│       ├── src/
+│       └── README.md
+│
+├── services/
+│   ├── api/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── README.md
+│   ├── storage/
+│   ├── analytics/
+│   └── README.md
+│
+├── clients/
+│   ├── cli/
+│   │   ├── bin/
+│   │   ├── commands/
+│   │   └── README.md
+│   ├── sdk/
+│   └── README.md
+│
+├── design-system/
+│   ├── tokens/
+│   │   ├── colors.json
+│   │   ├── spacing.json
+│   │   ├── typography.json
+│   │   └── README.md
+│   ├── components/
+│   │   ├── buttons/
+│   │   ├── cards/
+│   │   ├── alerts/
+│   │   ├── forms/
+│   │   └── README.md
+│   ├── layouts/
+│   └── README.md
+│
+├── analytics/
+│   ├── collectors/
+│   ├── processors/
+│   ├── exporters/
+│   └── README.md
+│
+├── config/
+│   ├── environments/
+│   │   ├── dev.json
+│   │   ├── prod.json
+│   │   └── test.json
+│   ├── schema.json
+│   └── README.md
+│
+├── infra/
+│   ├── docker/
+│   ├── ci/
+│   │   ├── lint.yml
+│   │   ├── build.yml
+│   │   ├── tests.yml
+│   │   └── release.yml
+│   ├── scripts/
+│   └── README.md
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   ├── e2e/
+│   └── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── security/
+│   │   ├── threat-model.md
+│   │   ├── data-flow.md
+│   │   └── policies.md
+│   ├── api/
+│   ├── ui/
+│   ├── onboarding.md
+│   └── README.md
+│
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── workflows/
+│   └── README.md
+│
+├── CHANGELOG.md
+├── README.md
+└── LICENSE
 ```
 
 > À mettre à jour si nécessaire.
