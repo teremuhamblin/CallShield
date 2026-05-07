@@ -1,0 +1,7 @@
+# FUNDING.yml pour CallShield — liens Android officiels
+
+github: teremuhamblin 
+
+custom:
+  - "https://source.android.com"        # Site officiel AOSP
+  - "https://developer.android.com"     # Documentation officielle Android

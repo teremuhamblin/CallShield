@@ -1,0 +1,22 @@
+install:
+	pip install -e .[dev]
+
+run:
+	uvicorn src.main:app --reload
+
+test:
+	pytest -q --cov=src
+
+lint:
+	ruff check .
+	black --check .
+	mypy src
+
+format:
+	black .
+
+docs:
+	cd docs && mkdocs build --clean
+
+start:
+	make install && make run
